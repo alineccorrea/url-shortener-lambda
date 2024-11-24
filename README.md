@@ -1,2 +1,5 @@
 # url-shortener-lambda
-URL shortener based on serverless architecture in Java using AWS services
+
+## README  
+<!-- - 🇺🇸 [English](README.en.md)  -->
+- 🇧🇷 [Português](README.pt.md) 
