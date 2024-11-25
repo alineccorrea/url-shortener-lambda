@@ -49,5 +49,6 @@ This project is a URL shortener developed with a serverless architecture. It all
 ## Project Setup
 
 1. Configure AWS.  
-2. Package the project with Maven: `mvn clean package`.  
-3. Deploy Lambda functions and configure the API Gateway.
+2.	 In the IDE, create two separate projects: CreateUrlLambda and RedirectUrlShortner. The projects have been unified here to facilitate the visualization of the functions and access to the projects.
+3. Package the project with Maven: `mvn clean package`.  
+4. Deploy Lambda functions and configure the API Gateway.
