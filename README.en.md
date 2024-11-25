@@ -13,7 +13,8 @@ This project is a URL shortener developed with a serverless architecture. It all
 
 ## Architecture
 
-![URL Shortener Schema](https://github.com/user-attachments/assets/233f20df-6e05-48c1-a503-0824e3154821)
+![Encurtador de URL Project-en-us](https://github.com/user-attachments/assets/af5c3018-aa1c-4e1f-84fd-a1ef6f09e746)
+
 
 ### Class: CreateUrlLambda [POST]
 
