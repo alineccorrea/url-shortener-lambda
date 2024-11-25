@@ -16,13 +16,13 @@ Este projeto é um encurtador de URL, desenvolvido com arquitetura serverless. E
 ![Encurtador-URL-schema](https://github.com/user-attachments/assets/233f20df-6e05-48c1-a503-0824e3154821)
 
 
-### Classe CreateUrlLambda [POST]
+### Função CreateUrlLambda [POST]
 
 - Valida os dados recebidos.
 - Gera um código UUID curto.
 - Salva o mapeamento dos dados no bucket S3 em formato JSON.
 
-### Classe RedirectUrlShortner [GET]
+### Função RedirectUrlShortner [GET]
 
 - Valida a chave UUID enviada pela requisição.
 - Recupera os metadados para o código fornecido dentro dos dados salvos no S3.
@@ -49,5 +49,6 @@ Este projeto é um encurtador de URL, desenvolvido com arquitetura serverless. E
 ## Configuração do projeto
 
 1. Configurar AWS.
-2. Empacotar o projeto com Maven: `mvn clean package`.
-3. Implemente funções Lambda e configure o API Gateway.
+2. Na IDE, criar dois projetos separados `CreateUrlLambda` e `RedirectUrlShortner`. Os projetos foram unificados aqui para facilitar a visualização das funções e acesso aos projetos.
+3. Empacotar o projeto com Maven: `mvn clean package`.
+4. Implemente funções Lambda e configure o API Gateway.
